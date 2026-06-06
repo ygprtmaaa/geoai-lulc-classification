@@ -1,3 +1,5 @@
+A GeoAI framework for Land Use Land Cover classification using Sentinel-2 data, feature engineering, and machine learning models including Random Forest, XGBoost, CART, and KNN.
+
 ## Project Overview
 
 This project develops a GeoAI-based Land Use Land Cover (LULC) classification workflow using Sentinel-2 satellite imagery and machine learning techniques. The workflow integrates remote sensing, feature engineering, and spatial analytics to generate accurate land cover maps for environmental monitoring and spatial planning.
