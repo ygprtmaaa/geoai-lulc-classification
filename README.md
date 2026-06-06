@@ -29,13 +29,10 @@ The classification process utilizes spectral bands and vegetation indices derive
 - Mixed Farm
 - Water Body
 
-## Classification Output
-
 ## Model Comparison Results
 
 <p align="center">
   <img width="1080" height="1080" alt="MODEL K-NEAREST NEIGHBOR" src="https://github.com/user-attachments/assets/5b6dba5b-2e77-4c8d-8a75-3c6dc7d3bf25" />
-" width="900">
 </p>
 
 **Figure 1.** Comparison of Land Use Land Cover (LULC) classification outputs generated using four machine learning algorithms: Random Forest, K-Nearest Neighbor, CART, and XGBoost.
