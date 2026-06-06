@@ -41,3 +41,5 @@ The classification process utilizes spectral bands and vegetation indices derive
 | KNN | 78.03% | 71.28% |
 
 Random Forest achieved the highest performance and produced the most reliable land cover classification results.
+<img width="2556" height="3408" alt="20260510_150456" src="https://github.com/user-attachments/assets/7b3ee755-988c-4d5a-a042-fb948a47f8c9" />
+
