@@ -31,23 +31,22 @@ The classification process utilizes spectral bands and vegetation indices derive
 
 ## Classification Output
 
-### Random Forest Model
+## Model Comparison Results
 
 <p align="center">
-  < <img width="1080" height="1080" alt="Desain tanpa judul (1)" src="https://github.com/user-attachments/assets/6dba54b9-e31d-47a5-97c9-de1312a9e6da" />
+  <img width="1080" height="1080" alt="MODEL K-NEAREST NEIGHBOR" src="https://github.com/user-attachments/assets/5b6dba5b-2e77-4c8d-8a75-3c6dc7d3bf25" />
+" width="900">
 </p>
 
-The Random Forest classifier produced the highest performance among all tested models. The classification utilized Sentinel-2 multispectral imagery and derived features including NDVI, NDWI, and BSI. The resulting map identifies major land cover classes such as settlements, rice fields, mixed farms, forests, fish ponds, and water bodies.
+**Figure 1.** Comparison of Land Use Land Cover (LULC) classification outputs generated using four machine learning algorithms: Random Forest, K-Nearest Neighbor, CART, and XGBoost.
 
-### Results
+The model comparison shows different spatial classification patterns across the study area. Random Forest achieved the best performance with an Overall Accuracy of **88.10%** and Kappa Accuracy of **84.52%**.
 
-| Model | Overall Accuracy | Kappa |
-|---------|---------|---------|
-| Random Forest | 88.10% | 84.52% |
-| XGBoost | 87.87% | 84.24% |
-| CART | 82.84% | 77.72% |
-| KNN | 78.03% | 71.28% |
-
-Random Forest achieved the highest performance and produced the most reliable land cover classification results.
+| Model | Overall Accuracy (%) | Kappa Accuracy (%) |
+|---|---:|---:|
+| Random Forest | 88.10 | 84.52 |
+| XGBoost | 87.87 | 84.24 |
+| CART | 82.84 | 77.72 |
+| K-Nearest Neighbor | 78.03 | 71.28 |
 
 
